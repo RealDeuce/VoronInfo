@@ -14,8 +14,9 @@ The accuracy of position_endstop is impacted by changes in the printer as it hea
 
 Once position_endstop is calibrated at the best mesh probe point, the relative_reference_index for that point should be configured in printer.cfg.
 
-References: https://www.klipper3d.org/Bed_Mesh.html#the-relative-reference-index
-            https://github.com/Deutherius/Gantry-bowing-induced-Z-offset-correction-through-relative-reference-index#how-the-hell-does-that-have-anything-to-do-with-z-offset
+References:\
+https://www.klipper3d.org/Bed_Mesh.html#the-relative-reference-index\
+https://github.com/Deutherius/Gantry-bowing-induced-Z-offset-correction-through-relative-reference-index#how-the-hell-does-that-have-anything-to-do-with-z-offset
 
 Klicky can directly measure position_endstop at any point on the bed based on the datasheet of the microswitch that is used.  This point should be the relative_reference_index point.  If it currently isn't I'll do a pull request to make it so after I install a Klicky and can test it.
 
